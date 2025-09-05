@@ -30,6 +30,7 @@ html {
 
 a[target="_parent"] {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
@@ -37,17 +38,39 @@ a:hover {
 }
 
 #container-about-me {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     border: solid 2px white;
     border-radius: 30px;
-    height: 800px;
+    height: 700px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 20px 10px 10px 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.container-about-me-intro {
+    color: rgba(133, 121, 92, 0.8);
+    font-size: 35px;
+    padding: 20px;
+}
+
+.container-about-me-intro > h1 {
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.container-about-me-image {
+    height: 650px;
+    border-radius: 30px;
 }
 
 #container-projects {
     border: solid 2px white;
     border-radius: 30px;
-    height: 800px;
+    height: 700px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 20px 10px 10px 20px;
 }
@@ -55,7 +78,7 @@ a:hover {
 #container-contact {
     border: solid 2px white;
     border-radius: 30px;
-    height: 800px;
+    height: 700px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 20px 10px 10px 20px;
 }
