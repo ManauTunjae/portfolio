@@ -29,3 +29,7 @@ html body {
 a[target="_parent"] {
     color: white;
 }
+
+a:hover {
+    color: rgba(133, 121, 92, 0.8);
+}
