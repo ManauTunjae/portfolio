@@ -37,10 +37,11 @@ a:hover {
     color: rgba(133, 121, 92, 0.8);
 }
 
-#container-about-me {
+#container-intro {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
+    box-sizing: border-box;
     border: solid 2px white;
     border-radius: 30px;
     height: 700px;
@@ -52,17 +53,17 @@ a:hover {
 
 }
 
-.container-about-me-intro {
+.container-intro {
     color: rgba(133, 121, 92, 0.8);
     font-size: 35px;
     padding: 20px;
 }
 
-.container-about-me-intro > h1 {
+.container-intro > h1 {
     color: rgba(255, 255, 255, 0.726);
 }
 
-.container-about-me-image {
+.container-intro-image {
     height: 650px;
     border-radius: 30px;
 }
