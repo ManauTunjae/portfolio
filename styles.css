@@ -61,11 +61,57 @@ a:hover {
 
 .container-intro > h1 {
     color: rgba(255, 255, 255, 0.726);
+    font-family: "DM Serif Text", serif;
 }
 
 .container-intro-image {
     height: 650px;
     border-radius: 30px;
+}
+
+@media (max-width: 1000px) {
+
+    .container-intro {
+        font-size: 20px;
+    }
+
+    .container-intro-image {
+    height: 300px;
+    border-radius: 30px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    
+    .header-name {
+    font-size: 12px;
+    display: flex;
+    padding-left: 30px;
+    }
+
+    .header-menu {
+    font-size: 9px;
+    display: flex;
+    gap: 9px;
+    padding-right: 30px; 
+    }
+
+    #container-intro {
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-columns: 1fr;
+    }
+
+    .container-intro {
+        order: 2;
+    }
+
+    .container-intro-image {
+    height: 350px;
+    border-radius: 30px;
+    order: 1;
+    }
+
 }
 
 #container-projects {
