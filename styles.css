@@ -11,9 +11,10 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(133, 118, 118, 0.32);
-    border-radius: 30px;
+    background-color: black;
+    border: 0.5px solid rgba(255, 255, 255, 0.266);
     margin: 20px 10px 10px 20px;
+    border-radius: 30px;
 }
 
 .header-name {
@@ -42,15 +43,13 @@ a:hover {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 0.5fr;
     box-sizing: border-box;
-    border: solid 2px white;
     border-radius: 30px;
     height: 700px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(34, 33, 33, 0.633);
     margin: 20px 10px 10px 20px;
     padding: 20px;
     justify-items: center;
     align-items: center;
-
 }
 
 .container-intro {
@@ -67,6 +66,48 @@ a:hover {
 .container-intro-image {
     height: 650px;
     border-radius: 30px;
+}
+
+#container-about-me {
+    border-radius: 30px;
+    height: 700px;
+    background-color: rgba(34, 33, 33, 0.633);
+    margin: 20px 10px 10px 20px;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+
+.container-about-me {
+    color: white;
+}
+
+#container-projects {
+    border-radius: 30px;
+    height: 700px;
+    background-color: rgba(34, 33, 33, 0.633);
+    margin: 20px 10px 10px 20px;
+}
+
+#container-contact {
+    border-radius: 30px;
+    height: 700px;
+    background-color: rgba(34, 33, 33, 0.633);
+    margin: 20px 10px 10px 20px;
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 0.5px solid rgba(255, 255, 255, 0.266);
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 @media (max-width: 1000px) {
@@ -112,35 +153,4 @@ a:hover {
     order: 1;
     }
 
-}
-
-#container-about-me {
-    border: solid 2px white;
-    border-radius: 30px;
-    height: 700px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 10px 10px 20px;
-    color: white;
-    display: flex;
-    padding: 30px;
-}
-
-.container-about-me {
-    color: white;
-}
-
-#container-projects {
-    border: solid 2px white;
-    border-radius: 30px;
-    height: 700px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 10px 10px 20px;
-}
-
-#container-contact {
-    border: solid 2px white;
-    border-radius: 30px;
-    height: 700px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 10px 10px 20px;
 }
