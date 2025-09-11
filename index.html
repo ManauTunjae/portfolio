@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -44,7 +45,31 @@
 
         </section>
         <section id="container-contact">
-
+            <div class="container-contact-header">
+                <h2>If you like my works and would love to contact me.</h2>
+                <p>If you have any a project in mind, a question, or just want to say hello? 
+                   <br>Feel free to reach out anytimes! I'm always open to connect and I would Love to! 
+                </p>
+            </div>
+            <div class="container-contact-me">
+                <form action="">
+                    <div class="contact-me-name">
+                        <label for="Name">name: </label><br>
+                        <input type="text" name="name" id="name" placeholder="You name">
+                    </div>
+                    <div class="contact-me-email">
+                        <label for="email">E-mail: </label><br>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+                    <div class="contact-me-message">
+                        <label for="message">Message: </label><br>
+                        <input type="text-area" name="message" id="message" placeholder="Your message">
+                    </div>
+                    <div class="contact-me-submit"><br>
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
