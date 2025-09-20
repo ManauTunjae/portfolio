@@ -74,7 +74,7 @@ a:hover {
     background-color: rgba(34, 33, 33, 0.633);
     margin: 10px;
     color: white;
-    display: flex;
+    /* display: flex; */
     padding: 30px;
 }
 
