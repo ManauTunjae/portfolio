@@ -166,6 +166,7 @@ form input {
     #container-intro {
         grid-template-rows: 1fr 0.5fr;
         grid-template-columns: 1fr;
+        text-align: center;
     }
 
     .container-intro {
